@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - main
  * Description: Print all possible two-digit combinations
@@ -16,8 +16,8 @@ int main(void)
 		{
 			if (y != x && y < x)
 			{
-				putchar('0' + y);
-				putchar('0' + x);
+				putchar(48 + y);
+				putchar(48 + x);
 
 				if (x + y != 17)
 				{
