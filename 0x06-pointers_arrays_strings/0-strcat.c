@@ -1,7 +1,6 @@
-int "main.h"
-
+#include "main.h"
 /**
- * *-stract - concantenates two strings
+ * *_strcat - concatenates two strings
  * @dest: pointer destination
  * @src: pointer source
  * Return: void
