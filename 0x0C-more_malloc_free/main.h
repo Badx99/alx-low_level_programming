@@ -1,3 +1,9 @@
+#ifndef MAIN_FILE
+#define MAIN_FILE
+
+#include <stdlib.h>
+#include <stdio.h>
+
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
@@ -7,3 +13,5 @@ void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
+#endif
